@@ -35,7 +35,6 @@ export default function PricingTestimonials() {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>

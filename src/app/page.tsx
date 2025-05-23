@@ -1,5 +1,5 @@
-import DesignjoyLogo from "@/components/DesignjoyLogo";
 import FAQSection from "@/components/sections/FAQSection";
+import FooterSection from "@/components/sections/FooterSection";
 import Hero from "@/components/sections/Hero";
 import HowItWorks from "@/components/sections/HowItWorks";
 import MembershipBenefits from "@/components/sections/MembershipBenefits";
@@ -19,6 +19,7 @@ export default function Home() {
       <RecentWorkMarquee />
       <PricingSection />
       <FAQSection/>
+      <FooterSection/>
     </>
   );
 }
