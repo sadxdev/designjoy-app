@@ -1,11 +1,16 @@
-// import Image from "next/image";
+import DesignjoyLogo from "@/components/DesignjoyLogo";
+import Hero from "@/sections/Hero";
 
 export default function Home() {
   return (
-    <div>
-      <div className="bg-green-500 text-white text-2xl p-6 rounded-s-2xl">
-        ✅ Tailwind v4 is working!
-      </div>
-    </div>
+    // <main className="min-h-screen bg-[#ECE6E8] relative p-10">
+    //   <div className="absolute top-17 left-6">
+    //     <DesignjoyLogo />
+    //   </div>
+    //   <div>
+    //     <h1>Design subscriptions for everyone</h1>
+    //   </div>
+    // </main>
+    <Hero />
   );
 }
