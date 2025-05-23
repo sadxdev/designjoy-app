@@ -85,10 +85,10 @@ export default function PricingSection() {
 
         {/* Logos */}
         <div className="flex flex-wrap items-center justify-center gap-6 mt-16 opacity-70">
-          {["Nectar-sleep-logo-vector%201.svg", "bmc-full-logo%201.svg", "svg.svg", "Vector.svg", "6203180d8e14605fb2d2c003_Vector%201.svg"].map((logo, i) => (
+          {["nectar-logo.svg", "bmc-2.svg", "beehiiv.svg", "laravel.svg", "xfinity.svg"].map((logo, i) => (
             <img
               key={i}
-              src={`https://cdn.prod.website-files.com/5837424ae11409586f837994/678548430d58f4cbecec198${6 + i}_${logo}`}
+              src={`/assets/images/${logo}`}
               alt="logo"
               className="h-8"
               loading="lazy"
