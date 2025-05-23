@@ -16,7 +16,7 @@ export default function HowItWorks() {
             <h3 className="text-xl font-semibold mb-2">Subscribe</h3>
             <p className="mb-4">Subscribe to a plan & request as many designs as you’d like.</p>
             <Image
-              src="/assets/subscribeIcon.svg"
+              src="/assets/images/subscribeIcon.svg"
               alt="Subscribe Icon"
               width={100}
               height={100}
@@ -52,7 +52,7 @@ export default function HowItWorks() {
             </div>
             <div className="mt-4">
               <Image
-                src="/assets/smileIcon.png"
+                src="/assets/images/smileIcon.png"
                 alt="Smile Icon"
                 width={80}
                 height={80}
@@ -80,7 +80,7 @@ export default function HowItWorks() {
             "xfinity.svg"].map((img, idx) => (
             <Image
               key={idx}
-              src={`/assets/${img}`}
+              src={`/assets/images/${img}`}
               alt={`Client Logo ${idx + 1}`}
               width={120}
               height={60}

@@ -11,7 +11,7 @@ export default function Hero() {
             <div className="mb-6">
               <Link href="#" className="inline-block">
                 <Image
-                  src="/assets/designjoy-logo.svg"
+                  src="/assets/images/designjoy-logo.svg"
                   alt="Designjoy Logo"
                   width={150}
                   height={50}
@@ -31,7 +31,7 @@ export default function Hero() {
                 className="border border-black px-6 py-2 rounded-full flex items-center gap-2 hover:bg-black hover:text-white transition"
               >
                 <Image
-                  src="/assets/phone.svg"
+                  src="/assets/images/phone.svg"
                   alt="Phone"
                   width={20}
                   height={20}
@@ -76,7 +76,7 @@ export default function Hero() {
               >
                 <div className="flex items-center gap-2">
                   <Image
-                    src="/assets/callIcon.png"
+                    src="/assets/images/callIcon.png"
                     alt="Call Icon"
                     width={24}
                     height={24}
@@ -87,7 +87,7 @@ export default function Hero() {
                   </div>
                 </div>
                 <Image
-                  src="/assets/arrow.svg"
+                  src="/assets/images/arrow.svg"
                   alt="Arrow"
                   width={20}
                   height={20}
@@ -95,7 +95,7 @@ export default function Hero() {
               </Link>
               <div className="mt-4">
                 <Image
-                  src="/assets/CardMockup.png"
+                  src="/assets/images/CardMockup.png"
                   alt="Card Mockup"
                   width={688}
                   height={400}
