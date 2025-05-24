@@ -9,11 +9,29 @@ export default function FooterSection() {
 
             {/* Left content */}
             <div className="lg:w-1/2">
-              <img
-                src="/assets/images/designjoy-logo.svg"
-                alt="Designjoy Logo"
-                className="mb-6 w-32"
-              />
+              <div className="flex items-center space-x-2">
+                <svg
+                  viewBox="-60 -40 120 80"
+                  className="w-6 h-6 text-white"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M-46.115,-18.523 C-41.463,2.666 -22.585,18.523 0.001,18.523 C22.586,18.523 41.463,2.664 46.115,-18.523"
+                    stroke="white"
+                    strokeWidth="18.407"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fillOpacity="0"
+                  />
+                </svg>
+
+                <img
+                  src="/assets/images/designjoy-logo.svg"
+                  alt="Designjoy Logo"
+                  className="w-32 align-middle invert"
+                />
+              </div>
               <h1 className="text-4xl md:text-5xl font-bold leading-tight">
                 See if Designjoy is the right fit for you{" "}
                 <span className="italic">(it totally is)</span>
