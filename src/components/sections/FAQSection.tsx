@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 
 import { faqs } from "@/constants/faqs";
 import { useState } from "react";

@@ -19,7 +19,7 @@ export default function Home() {
       <RecentWorkMarquee />
       <PricingSection />
       <FAQSection/>
-      <FooterSection/>
+      <FooterSection />
     </>
   );
 }
